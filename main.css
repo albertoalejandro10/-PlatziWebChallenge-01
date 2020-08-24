@@ -5,3 +5,82 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+    background-color: rgb(103, 75, 177);
+}
+
+.fondo{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+}
+
+.title{
+    display: inline-block;
+    margin: 40px 0px 0px 60px;
+}
+
+.logo-huddle{
+    width: 200px;
+}
+
+.main{
+    margin-top: 44px;
+    display: flex;
+}
+
+.right{
+    color: #FEFBFF;
+    width: 40%;
+}
+
+.right h1{
+    font-weight: 700;
+}
+
+.right p{
+    font-weight: 300;
+}
+
+.left{
+    margin-left: 60px;
+    width: 50%;
+}
+
+.left img{
+    position: relative;
+    bottom: -14px;
+}
+
+.social{
+    display: flex;
+    position: relative;
+    right: 60px;
+    bottom: 10px;
+    font-size: 20px;
+    color: #FEFBFF;
+}
+
+.social li{
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    width: 24px;
+    padding: 2px 2px;
+    border: 1px solid #FEFBFF;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
